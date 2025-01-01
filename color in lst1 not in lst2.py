@@ -1,0 +1,6 @@
+l1=input("enter the colors for l1 seperated by comma:")
+l2=input("enter the color for l2 seperated by comma")
+l1=l1.split(',')
+l2=l2.split(',')
+result=set(l1)-set(l2)
+print(result)
